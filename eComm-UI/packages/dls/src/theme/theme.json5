@@ -1,0 +1,102 @@
+{
+    dls: {
+        layout: {
+          breakpoints: {
+            mobile: 414,
+            tablet: 1024,
+            desktop: 1440
+         }
+        },
+        colors: {
+            aaBlue      : '#0097AF',
+            caBlue      : '#02ABCA',
+            black       : '#000000',
+            grey1       : '#333333',
+            grey2       : '#4F4F4F',
+            grey3       : '#828282',
+            grey4       : '#BDBDBD',
+            grey5       : '#E0E0E0',
+            grey6       : '#F2F2F2',
+            grey8       : '#F9F9F9',
+            white       : '#FFFFFF',
+            arcticBlue  : '#81DEF2',
+            darkBlue    : '#1F90AE',
+            darkTeal    : '#0C6178',
+            lightBlue   : '#9DE8F5',
+            lightTeal   : '#008397',
+            paleBlue    : '#CFF5FD',
+            paleBlue2   : '#EFFBFD',
+            skyBlue     : '#07BCDE',
+            caGreen     : '#69B246',
+            caOrange    : '#EE8C31',
+            caYellow    : '#F5D518',
+            caRed       : '#E2231A',
+            transparent : 'transparent'
+        },
+        alt: {
+          components: {
+            btn: {
+              disabledBackground  : '#E4E4E4',
+              iconBackground      : '#E1F5F9',
+              disabledPrimaryColor: '#666666',
+              activePrimaryColor  : '#808080',
+              disabledColor       : '#C4C4C4',
+              floatingIconSize    : 40
+            },
+             textfield: {
+               hoverBackgroundColor: '#E6F4F6',
+            }
+          },
+          sizes: {
+            btn: {
+              secondaryBorderWidth: '2px',
+            }
+          }
+        }
+    },
+    breakpoints: {
+      values: {
+        xs: 250,
+        sm: 414,
+        md: 1024,
+        lg: 1440,
+        xl: 1440,
+     }
+    },
+    overrides: {
+      MuiInput: {
+        root: {
+          backgroundColor: '#FFFFFF',
+          fontFamily: 'Roboto',
+          fontStyle: 'normal',
+          fontWeight: 'normal',
+          fontSize: '16px !important',
+          lineHeight: '24px !important',
+          color: '#333333'
+        },
+        input: {
+          paddingLeft: '27px'
+        }
+      },
+      MuiButton: {
+        root: {
+          height: 48,
+          letterSpacing: 1,
+          borderRadius: '0px !important'
+        }
+      },
+      MuiInputLabel: {
+        root: {
+          fontFamily: 'Roboto',
+          fontWeight: 'normal',
+          fontSize: '12px',
+          lineHeight: '16px',
+          color: '#4F4F4F',
+          paddingLeft: '16px !important'
+        },
+        shrink: {
+          transformOrigin: '16px',
+        }
+      }
+    }
+}

@@ -1,0 +1,1 @@
+globalThis.env = 'PROD';

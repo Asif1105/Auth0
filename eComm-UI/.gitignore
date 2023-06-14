@@ -1,0 +1,6 @@
+.vscode/
+yarn-error.log
+node_modules/
+.editorconfig
+.DS_Store
+testReports/
